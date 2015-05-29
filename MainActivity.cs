@@ -13,7 +13,7 @@ namespace frtgfcxgfh
 	public class MainActivity : Activity
 	{
 		int count = 1;
-		int=5;
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -24,7 +24,7 @@ namespace frtgfcxgfh
 			// Get our button from the layout resource,
 			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.myButton);
-			
+			hgfhgh
 			button.Click += delegate {
 				button.Text = string.Format ("{0} clicks!", count++);
 				Console.WriteLine ();
