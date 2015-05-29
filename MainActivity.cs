@@ -13,7 +13,7 @@ namespace frtgfcxgfh
 	public class MainActivity : Activity
 	{
 		int count = 1;
-
+		int=5;
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
